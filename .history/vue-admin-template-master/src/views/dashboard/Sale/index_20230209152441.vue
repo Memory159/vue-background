@@ -1,0 +1,19 @@
+<template>
+  <el-card class="box-card" style="margin:10px 0px">
+    <div slot="header" class="clearfix">
+      <span>卡片名称</span>
+    </div>
+    <div v-for="o in 4" :key="o" class="text item">
+      {{ "列表内容 " + o }}
+    </div>
+  </el-card>
+</template>
+
+<script>
+export default {
+  name: "",
+};
+</script>
+
+<style>
+</style>

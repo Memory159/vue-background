@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <div class="card-header">头部区域</div>
+        <div class="card-contedt">内容区域</div>
+        <div class="card-charts">图表区域</div>
+        <div class="card-footer">底部区域</div>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
